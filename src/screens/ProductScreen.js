@@ -22,7 +22,7 @@ function ProductScreen({ match, history }) {
 
 
     const addToCart = () => {
-        history.push(`/cart/${match.params.ids}?qty=${qty}`)
+        history.push(`/cart/${match.params.id}?qty=${qty}`)
     }
 
     return (
